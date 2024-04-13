@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body
+{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* project card style */
+.primary-card
+{
+    border: 1px solid rgb(0,0,0,0.5);
+    cursor: pointer;
+    background-color: #f0f0f0;
+    height: 100%;
+}
+
+/* project card create icon style */
+.icon-plus
+{
+    color: rgb(0,0,0,0.6);
+}
+
+/* heading style */
+h1, h2,h3,h4,h5
+{
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+}
+
+/* text opacity style */
+.opacity-50
+{
+    opacity: 0.5;
+}
+
+/* datetime text style */
+.datetime-text
+{
+    color: rgb(0,0,0,0.3);
+    font-size: 0.8rem;
+}
+
+/* paragraph style */
+.paragraph
+{
+    font-weight: normal;
+    letter-spacing: 0.05rem;
+}
+
+/* project task count style */
+.number-text
+{
+    font-size: 2rem;
+    color: #a61f41;
+}
+
+/* link style */
+.a-no-decoration
+{
+    text-decoration: none;
+    color: #000;
+}
+
+/* link hover style */
+.a-no-decoration:hover
+{
+    color: #a61f41;
+}
+
+/* float to right */
+.float-right
+{
+    float: right;
+}
+
+/* input required label style */
+.required
+{
+    color: #a61f41;
+}
+
+/* task remove icon style */
+.remove-task-icon
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+/* task li style */
+.task-li
+{
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* sweetalert button focus style */
+.swal2-confirm:focus
+{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/*  button style */
+.custom-btn
+{
+    background-color: #a61f41;
+    color: #fff;
+}
+
+.custom-btn:hover
+{
+    background-color: #fff;
+    color: #a61f41;
+    border: 2px solid #a61f41;
+}
+
+/*  button border style */
+.border-radius-20, .swal2-cancel, .swal2-confirm
+{
+    border-radius: 20px !important;
+}
+
+/* sortable tasks area style */
+#tasks-sortable
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 80vh; /* Set maximum height for the container */
+    padding: 0;
+    overflow-y: auto;
+    list-style: none;
+}
+
+/* remove outline and shadow in input and select */
+input:focus,select:focus
+{
+    border-color: #000 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
